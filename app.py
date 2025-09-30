@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the trained GradientBoost model
-with open("GradientBoost_model_new1.pkl", "rb") as f:
+with open("GradientBoost_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Ordinal encoding mappings using enumerate
@@ -73,5 +73,6 @@ if st.button("Predict Price"):
 
     # Make prediction
     predicted_price = model.predict(input_data)[0]
+
 
     st.success(f"Predicted Car Price: ₹ {predicted_price:,.2f}")
