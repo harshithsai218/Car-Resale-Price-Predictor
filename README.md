@@ -1,6 +1,6 @@
 # 🚗Car Resale Price Predictor
 
-🔗 **Try it here:** [car-re-sale-price-predictor.streamlit.app](https://car-re-sale-price-predictor.streamlit.app)  
+🔗 **Try it here:** [car-resale-price](https://car-re-sale-price-predictor.streamlit.app)  
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)  
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Regression-green)  
